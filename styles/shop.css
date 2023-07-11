@@ -15,6 +15,11 @@ section {
     margin: 128px 0px 0px;
 }
 
+footer {
+    margin: 128px 0px 0px;
+
+}
+
 .btn-primary {
     border-radius: 8px;
     background: #E55473;
@@ -213,14 +218,35 @@ section {
     gap: 24px;
 }
 
-/* section 7:css style */
+
+/* section 6:css style */
 .section-6 {
     background-image: url(../Flower_Asset/Rectangle\ 9.png);
     /* padding: 50px 240px 0px 240px; */
-    margin-left: 240px;
+    /* margin-left: 240px; */
     /* margin-right: 240px; */
     background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    background-position: center;
+    padding-bottom: 121px;
+}
 
+.section-6>h3 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 122px;
+}
+
+.section-6>p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 48px;
 }
 
 .center input[type="email"] {
@@ -230,19 +256,21 @@ section {
     color: rgba(39, 39, 39, 0.60);
     font-size: 16px;
     font-weight: 400;
-
+    
 }
 
 /* footer section  */
 .footer>p {
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
-    padding:24px 648px;
+    padding: 24px 648px;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
 }
-
+.footer>h3{
+    padding-top: 128px;
+}
 .footer {
     background: #111010;
     text-align: center;
