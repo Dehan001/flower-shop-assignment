@@ -1,0 +1,60 @@
+/* common css styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+
+/* styles for header section */
+.header {
+    background-color: #E554731A;
+    display: flex;
+
+}
+
+.banner {
+    padding: 50px 240px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 32px;
+
+}
+
+.banner-content {
+    margin-top: 0px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.banner image {
+    margin-top: 0;
+    width: 635px;
+    height: 800px;
+    flex-shrink: 0;
+}
