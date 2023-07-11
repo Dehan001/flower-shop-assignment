@@ -3,7 +3,17 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+.text-primary {
+    color: #E55473;
+}
 
+.text-white {
+    color: white;
+}
+
+section {
+    margin: 128px 0px 0px;
+}
 
 .btn-primary {
     border-radius: 8px;
@@ -16,7 +26,7 @@ body {
 }
 
 .section-title {
-    margin: 128px 0px 0px;
+
     color: #272727;
     text-align: center;
     font-size: 40px;
@@ -88,12 +98,6 @@ body {
     justify-content: center;
 }
 
-.skill {
-    padding: 30px;
-
-    border-radius: 5px;
-    background: #FFF;
-}
 
 .flower-item {
 
@@ -117,9 +121,10 @@ body {
     background: rgba(71, 125, 17, 0.15);
 }
 
-.item-container{
+.item-container {
     justify-items: center;
 }
+
 .item-container>.underlined-text {
     color: #272727;
     text-align: center;
@@ -127,4 +132,118 @@ body {
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
+}
+
+/* section 3:css style  */
+.service-container {
+    justify-content: center;
+    margin: 0px auto;
+    max-width: 1440px;
+    display: flex;
+    gap: 50px;
+    padding: 86px 0px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.service-item-container {
+    justify-content: center;
+
+}
+
+.service-text {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+/* section-4: css style  */
+.section-4 {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.section-4-banner {
+    padding: 100px 423px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-4-container {
+    max-width: 750px;
+
+}
+
+.section-4-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.section-4-discription {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#flower-pic8 {
+    width: 318px;
+    height: 420px;
+
+    flex-shrink: 0;
+}
+
+/* section 5: css style  */
+.flower-pic-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+/* section 7:css style */
+.section-6 {
+    background-image: url(../Flower_Asset/Rectangle\ 9.png);
+    /* padding: 50px 240px 0px 240px; */
+    margin-left: 240px;
+    /* margin-right: 240px; */
+    background-repeat: no-repeat;
+
+}
+
+.center input[type="email"] {
+
+    width: 700px;
+    height: 64px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+/* footer section  */
+.footer>p {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    padding:24px 648px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footer {
+    background: #111010;
+    text-align: center;
 }
